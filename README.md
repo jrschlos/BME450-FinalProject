@@ -2,6 +2,7 @@
   Classifying Rentinal Images
 ## Team Members
   Joey Schlosser (GitHub Username: jrschlos) 
+  
   Kyen Ayuba (GitHub Username: Kyenret)
 
 ## Project Description
