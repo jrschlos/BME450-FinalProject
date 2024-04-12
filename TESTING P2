@@ -1,1 +1,18 @@
-New...
+import numpy as np
+import pandas as pd
+import cv2
+import random
+import matplotlib.pyplot as plt
+import os
+from tqdm.auto import tqdm
+
+df = pd.read_csv("/kaggle/input/ocular-disease-recognition-odir5k/full_df.csv")
+df.info()
+
+df.head(5)
+
+def includes_cataract(text):
+  if "cataract" in text:
+    return 1
+  else:
+    return 0
